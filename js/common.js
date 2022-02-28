@@ -278,6 +278,7 @@ function getCartsByCustomerId()
 			req.products.push({
 				productId: item.productId,
 				productPrice: item.price,
+				quantity: item.qty,
 				id: 0 // TODO: hardcoded
 			})
 		});
